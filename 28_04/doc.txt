@@ -1,0 +1,22 @@
+1. Fazer um programa que preencha uma lista até que seja digitado zero
+  preenche_lista(lista)
+2. Fazer um procedimento chamado ‘exibe_lista(l)’ que exiba os elementos da lista passada por parâmetro..
+  exibe_lista(lista)
+3. Sabemos que a função len() do Python retorna a quantidade de elementos de uma lista. Faça uma função chamada ‘conta_elementos(l)’ que tenha o mesmo efeito.
+  x= conta_elementos(lista)
+4. Sabemos que a função index() do Python retorna o índice do elemento passado por parâmetro. Faça uma função parecida chamada ‘retorna_indice(elemento)’ com a melhoria de retornar -1 caso o elemento não seja encontrado..
+  x= retorna_indice(elemento)
+5. Sabemos que a função count() do Python retorna a quantidade de um elemento especifico. Faça uma função chamada ‘busca(l,elemento)’ que tenha o mesmo efeito.
+  x= busca(lista, elemento)
+6. Fazer uma função chamada ‘conta_inteiro(l)’ que conte quantos elementos inteiros existem em uma lista.
+  x= conta_inteiro(lista)
+ 
+6. Fazer uma função chamada ‘conta_string(l)’ que conte quantos elementos stringsexistem em uma lista.
+7. Fazer uma função chamada ‘conta_boolean(l)’ que conte quantos elementos lógicos existem em uma lista.
+8. Fazer uma função chamada ‘conta_float(l)’ que conte quantos elementos float existem em uma lista.
+9. Fazer um procedimento chamado ‘copia_int(lista1, lista2)’ que verifique na lista1 se um dado é inteiro e copie para a lista2 este dado convertido em inteiro.
+Lista1 = [‘eds’,‘56’, ‘fiap’, ‘ester’, ‘True’, ‘45.78’, ’12’, ’78’]
+copia_int(lista1, lista2)
+print(lista1)# [‘eds’, ‘56’, ‘fiap’, ‘ester’, ‘True’, ‘45.78’, ’12’, ’78’]
+print(lista2)# [56, 12, 78]
+ 
