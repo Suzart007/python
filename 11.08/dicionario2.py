@@ -51,7 +51,7 @@ print(aluno)
 
 
 import os
-os.system("cls") # ou "cls" se estiver no Windows
+os.system("cls") 
 
 # ------ DEFINIÇÃO DOS SUBALGORITMOS
 def exibir_aluno(a: dict) -> None:
